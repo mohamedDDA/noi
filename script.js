@@ -52,6 +52,9 @@ function initSwipers() {
             slidesPerView: 4,
             spaceBetween: 30,
             centeredSlides: false,
+            autoplay: {
+                delay: 1000,
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
