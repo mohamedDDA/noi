@@ -117,6 +117,14 @@
 }
 
 @font-face {
+    font-family: "Font Awesome 6 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.ttf) format("truetype")
+}
+
+@font-face {
     font-family: "Font Awesome 5 Brands";
     font-display: block;
     font-weight: 400;
