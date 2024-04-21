@@ -29,7 +29,7 @@ const Language = {
         langOption.textContent = this.current === 'AR' ? 'EN' : 'AR';
 
         // Translate content in home section
-        document.querySelector(".home h1").textContent = data.home.title;
+        document.querySelector(".home h2").textContent = data.home.title;
         document.querySelector(".home p").innerHTML = data.home.subtitle + "<br><span>" + data.home.highlight + "</span>";
         document.querySelector(".home .btn").textContent = data.home.button;
         // Translate content in about section
