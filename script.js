@@ -40,27 +40,12 @@ function loadCSS(url) {
 // Load the CSS file asynchronously
 loadCSS('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
 
-// Define global variables to hold swiper instances
-let swiperFirst;
 let swiperSecond;
 
 // Function to initialize Swiper instances
 function initSwipers() {
 
     setTimeout(function () {
-        swiperFirst = new Swiper(".first-swiper", {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            centeredSlides: false,
-            autoplay: {
-                delay: 1000,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
         swiperSecond = new Swiper(".second-swiper", {
             slidesPerView: 5,
             spaceBetween: 30,
@@ -72,8 +57,6 @@ function initSwipers() {
             },
         });
 
-        // Attach slideChange event handlers for swiperFirst and swiperSecond
-        swiperFirst.on('slideChange', handleSlideChange);
         swiperSecond.on('slideChange', handleSlideChange);
 
         // Call updateSwipers after Swiper instances are initialized
@@ -90,9 +73,6 @@ function handleSlideChange() {
 
 // Function to destroy Swiper instances
 function destroySwipers() {
-    if (swiperFirst && swiperFirst.destroy) {
-        swiperFirst.destroy();
-    }
     if (swiperSecond && swiperSecond.destroy) {
         swiperSecond.destroy();
     }
@@ -112,10 +92,8 @@ const mediaQuery = window.matchMedia('(max-width: 1024px)');
 // Function to update Swipers based on screen size
 function updateSwipers() {
     if (mediaQuery.matches) {
-        updateSwiperParams(swiperFirst, 1.5);
         updateSwiperParams(swiperSecond, 1.5);
     } else {
-        updateSwiperParams(swiperFirst, 4);
         updateSwiperParams(swiperSecond, 5);
     }
 }
