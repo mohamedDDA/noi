@@ -95,7 +95,7 @@ section {
   color: var(--white-color);
   border-radius: 8px;
   width: fit-content;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border: 1px solid var(--alt-color);
   border-radius: 25px;
   transition: 0.3s;
@@ -238,7 +238,7 @@ section.home .container .content div {
 
 section.home .container .content h2 {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 section.home .container .content p {
