@@ -9,9 +9,12 @@
     }
 
     body section.partners .cards-container {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* Two columns with equal width */
+    }
+
+    body section.service .service-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
