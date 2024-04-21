@@ -50,8 +50,12 @@
     }
 
     body section.service .first-swiper .swipe-options>div {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
+    }
+
+    body section.service .first-swiper .swipe-options>div::after {
+        font-size: 1.2rem;
     }
 
     body section.home .container .content h2 {
