@@ -1,0 +1,116 @@
+{
+    "navbar": "EN",
+    "placeholders": {
+        "fullname": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "message": "Message"
+    },
+    "buttonText": "Send",
+    "home": {
+        "title": "Move to the Next Level in Your Business",
+        "subtitle": "Integrated Solutions from Innovation to",
+        "highlight": "Amazement",
+        "button": "Get to Know Us"
+    },
+    "about": {
+        "title": "About Us",
+        "content": "A Saudi company specialized in the entertainment sector provides its services to companies and government entities. Noy specializes in using its expert creative team to create exceptional events for each client through innovative attention to detail to provide a customized experience that meets each client's aspirations and goals, paying attention to all necessary details."
+    },
+    "service": {
+        "title": "Our Services",
+        "items": [
+            {
+                "title": "Exhibition Management and Organization",
+                "description": "We make exhibitions and conferences in Saudi Arabia an unforgettable event."
+            },
+            {
+                "title": "Technical and Technological Equipments",
+                "description": "Exhibitions, conferences, lectures, brand launches, agreements, press conferences, and more."
+            },
+            {
+                "title": "Event Business Management",
+                "description": "Supervision and assistance throughout the event, providing advice on venue selection and negotiation."
+            },
+            {
+                "title": "Media Coverage",
+                "description": "Local and international platforms, influencers, content creators, journalists, writers, and editors."
+            },
+            {
+                "title": "Protocol",
+                "description": "Writing invitation letters and occasion cards, informing invitees of the appropriate place and time, and more."
+            },
+            {
+                "title": "Crowd Management",
+                "description": "Organizing entry and exit movements, coordinating and following up with relevant authorities."
+            },
+            {
+                "title": "Project Content Innovation",
+                "description": "Designing and producing digital content, preparing printed materials, building visual and linguistic identity."
+            },
+            {
+                "title": "Photography and Video",
+                "description": "Preparing reports, delivering all digital recordings to the client."
+            },
+            {
+                "title": "Logistics",
+                "description": "Expertly managing all logistics operations to ensure the smoothness and success of your event."
+            }
+        ]
+    },
+    "aboutUs": {
+        "label": "About the Company",
+        "title": "Get to Know Us Up Close",
+        "content": "22 expert individuals passionately dedicate their efforts to organizing and preparing various conferences and events. From the first word written in event details, they innovate creative solutions for people to talk about in the end... It's our specialty that we work with.",
+        "missionButton": "Mission",
+        "visionButton": "Vision",
+        "messageButton": "Message",
+        "missionText": "Creating exceptional experiences for clients through innovation, creativity, and achieving goals in the best possible ways.",
+        "visionText": "To be the leading company in the field of organizing events and exhibitions in the Kingdom of Saudi Arabia and the region.",
+        "messageText": "Providing high-quality services and dedication to work to achieve satisfaction and excellence for our clients."
+    },
+    "projects": [
+        {
+            "image": "/images/1_2.webp",
+            "title": "Exhibition Organization",
+            "description": "We make exhibitions and conferences in Saudi Arabia an unforgettable event!"
+        },
+        {
+            "image": "/images/1_3.webp",
+            "title": "Logistics Operations",
+            "description": "We meticulously manage all logistics operations to ensure the smoothness and success of your event."
+        },
+        {
+            "image": "/images/1_1.webp",
+            "title": "Conference Organization",
+            "description": "We work innovatively and provide high-quality equipment to make each participant's experience reflect their personal interests."
+        }
+    ],
+    "project": {
+        "title": "Our Projects",
+        "subtitle": "Achieve Your Goals with Creative Vision"
+    },
+    "partners": {
+        "title": "Our Partners",
+        "subtitle": "Their Presence Distinguishes Us"
+    },
+    "contact": {
+        "title": "Contact Us"
+    },
+    "form": {
+        "title": "Stay in Touch with Us"
+    },
+    "footer": {
+        "aboutNoy": {
+            "title": "About Noy",
+            "content": "A Saudi company specialized in the entertainment sector provides its services to companies and government entities. Noy specializes in using its expert creative team to create exceptional events for each client through innovative attention to detail to provide a customized experience that meets each client's aspirations and goals, paying attention to all necessary details."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "address": "Kingdom of Saudi Arabia, Riyadh, Al-Olaya, Kaab Bin Malik Street",
+            "phoneNumber": "00966501808946",
+            "email": "info@vianoii.com"
+        },
+        "copyright": "© 2023 All Rights Reserved"
+    }
+}

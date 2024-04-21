@@ -1,0 +1,91 @@
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    body section.partners .cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns with equal width */
+    }
+
+
+    body section.about p,
+    body section.about-us .container .content>p {
+        width: 100%;
+    }
+
+    section.about-us .container .details .text p {
+        width: 90%;
+    }
+
+    body nav.navbar {
+        padding: 20px 5%;
+    }
+
+    body nav .logo img {
+        width: 60px;
+    }
+
+
+    body section.home .container {
+        flex-direction: column;
+    }
+
+    body section.home .container .icons {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section.about-us .container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    section.about-us .container .image {
+        flex-basis: 100%;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    section.contact .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.contact .container .form-container {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    section.contact .container .form-container form {
+        width: 100%;
+    }
+
+    footer .container .footer-box {
+        flex-direction: column;
+    }
+
+    body section.contact .container>div {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    section.contact .container iframe {
+        width: 100%;
+    }
+}
