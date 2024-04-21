@@ -37,16 +37,16 @@ const Language = {
         document.querySelector(".about p").textContent = data.about.content;
         // Translate content in service section
         document.querySelector(".service h1").textContent = data.service.title;
-        const swiperWrapper = document.querySelector('.service .swiper-wrapper');
+        const serviceContainer = document.querySelector('.service .service-container');
 
         // Check if the swiper wrapper element exists
-        if (swiperWrapper) {
-            swiperWrapper.innerHTML = '';
+        if (serviceContainer) {
+            serviceContainer.innerHTML = '';
             // Map over the service items and create swiper slides
             data.service.items.forEach(item => {
                 // Create a swiper slide element
                 const slide = document.createElement('div');
-                slide.classList.add('service-card', 'swiper-slide');
+                slide.classList.add('service-card');
 
                 // Create and append the title element
                 const title = document.createElement('h3');
@@ -60,14 +60,14 @@ const Language = {
                 slide.appendChild(description);
 
                 // Append the swiper slide to the swiper wrapper
-                swiperWrapper.appendChild(slide);
+                serviceContainer.appendChild(slide);
             });
         } else {
             console.error('Swiper wrapper element not found.');
         }
-        const projectsSwiperWrapper = document.querySelector('.projects .swiper-wrapper');
-        if (projectsSwiperWrapper) {
-            projectsSwiperWrapper.innerHTML = '';
+        const projectsserviceContainer = document.querySelector('.projects .swiper-wrapper');
+        if (projectsserviceContainer) {
+            projectsserviceContainer.innerHTML = '';
             for (let i = 0; i < 2; i++) {
                 // Map over the project items and create swiper slides
                 data.projects.forEach(project => {
@@ -97,7 +97,7 @@ const Language = {
                     slideCont.appendChild(description);
 
                     // Append the swiper slide to the swiper wrapper
-                    projectsSwiperWrapper.appendChild(slide);
+                    projectsserviceContainer.appendChild(slide);
                 });
             }
         } else {
