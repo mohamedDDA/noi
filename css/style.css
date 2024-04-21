@@ -311,6 +311,7 @@ section.service .first-swiper .swipe-options {
   display: flex;
   flex-direction: row-reverse;
   gap: 80px;
+  z-index: 9999999999999999;
 }
 
 section.service .first-swiper .swipe-options>* {
