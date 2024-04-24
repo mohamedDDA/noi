@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // If accessed directly, redirect to the form page
-    header("Location: /ar.html"); // Replace with the path to your HTML form page
+    header("Location: index.html"); // Replace with the path to your HTML form page
     exit;
 }
 ?>

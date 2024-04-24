@@ -541,6 +541,14 @@ section.contact .form-group {
   margin-bottom: 20px;
 }
 
+section.contact #res {
+  color: var(--text-color);
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section.contact label {
   display: block;
   margin-bottom: 5px;
